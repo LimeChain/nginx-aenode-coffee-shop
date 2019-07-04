@@ -1,0 +1,11 @@
+{
+    "AWSEBDockerrunVersion": "1",
+    "Image": {
+        "Name": "alekseylimechain/coffee-shop:latest"
+    },
+    "Ports": [{
+        "ContainerPort": 3000,
+        "HostPort": 80
+      }],
+    "Logging": "/app/logs"
+}

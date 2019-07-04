@@ -1,0 +1,52 @@
+{
+    "AWSEBDockerrunVersion": 2,
+
+    "volumes": [{
+        "name": "dbnode",
+        "host": {
+            "sourcePath": "/data/node-db"
+        }
+    }],
+
+    "containerDefinitions": [{
+            "name": "aenode_",
+            "image": "alekseylimechain/aenode:latest",
+            "hostname": "aenode",
+            "essential": true,
+            "memory": 512,
+            "portMappings": [{
+                    "hostPort": 3013,
+                    "containerPort": 3013
+                },
+                {
+                    "hostPort": 3014,
+                    "containerPort": 3014
+                },
+                {
+                    "hostPort": 3015,
+                    "containerPort": 3015
+                }
+            ],
+            "mountPoints": [{
+                "sourceVolume": "dbnode",
+                "containerPath": "/home/aeternity/node/data/mnesia"
+            }]
+        },
+        {
+            "name": "nginx",
+            "image": "alekseylimechain/nginx:latest",
+            "hostname": "nginx",
+            "essential": true,
+            "portMappings": [{
+                "hostPort": 80,
+                "containerPort": 80
+            }],
+            "links": ["aenode_"],
+            "memory": 128
+        }
+    ],
+    "securityContext": {
+        "fsGroup": 1000,
+        "runAsUser": 1000
+    }
+}
