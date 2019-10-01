@@ -10,7 +10,7 @@
 
     "containerDefinitions": [{
             "name": "aenode_",
-            "image": "alekseylimechain/aenode:latest",
+            "image": "alekseylimechain/aenode:lima.devnet",
             "hostname": "aenode",
             "essential": true,
             "memory": 512,
@@ -26,11 +26,7 @@
                     "hostPort": 3015,
                     "containerPort": 3015
                 }
-            ],
-            "mountPoints": [{
-                "sourceVolume": "dbnode",
-                "containerPath": "/home/aeternity/node/data/mnesia"
-            }]
+            ]
         },
         {
             "name": "nginx",

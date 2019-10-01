@@ -1,15 +1,5 @@
-peers:
-    - aenode://pp_QU9CvhAQH56a2kA15tCnWPRJ2srMJW8ZmfbbFTAy7eG4o16Bf@52.10.46.160:3015
-    - aenode://pp_2vhFb3HtHd1S7ynbpbFnEdph1tnDXFSfu4NGtq46S2eM5HCdbC@18.195.109.60:3015
-    - aenode://pp_27xmgQ4N1E3QwHyoutLtZsHW5DSW4zneQJ3CxT5JbUejxtFuAu@13.250.162.250:3015
-    - aenode://pp_DMLqy7Zuhoxe2FzpydyQTgwCJ52wouzxtHWsPGo51XDcxc5c8@13.53.161.215:3015
-
-sync:
-    port: 3015
-
 fork_management:
-  network_id: ae_uat
-  # network_id: ae_mainnet
+  network_id: ae_devnet
 
 chain:
   persist: true
@@ -18,10 +8,9 @@ chain:
     "2": 1
     "3": 2
     "4": 3
-  # db_path: /home/aeternity/node/data/db
 
-  protocol_beneficiaries_enabled: true
-  protocol_beneficiaries: ["ak_2A3PZPfMC2X7ZVy4qGXz2xh2Lbh79Q4UvZ5fdH7QVFocEgcKzU:109"]
+  # protocol_beneficiaries_enabled: true
+  # protocol_beneficiaries: ["ak_2A3PZPfMC2X7ZVy4qGXz2xh2Lbh79Q4UvZ5fdH7QVFocEgcKzU:109"]
 
 http:
   external:
@@ -41,4 +30,12 @@ keys:
 mining:
     beneficiary: "ak_TgaLnCYN1wtXP9KKQz3apMNzXMuUJa9gXbv4o5uW73tRW8Gue"
     # beneficiary: "ak_2mwRmUeYmfuW93ti9HMSUJzCk1EYcQEfikVSzgo6k2VghsWhgU"
-    autostart: false
+    autostart: true
+    beneficiary_reward_delay: 2
+    expected_mine_rate: 4000
+    micro_block_cycle: 1000
+    cuckoo:
+      miner:
+        executable: mean15-generic
+        extra_args: ""
+        edge_bits: 15
