@@ -1,4 +1,4 @@
-FROM aeternity/aeternity:v5.0.0-rc.5
+FROM aeternity/aeternity:v5.0.0
 COPY ./aeternity.yaml /home/aeternity/node/aeternity.yaml
 user root
 VOLUME /data/node-db
