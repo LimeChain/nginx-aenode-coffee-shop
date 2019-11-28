@@ -13,11 +13,11 @@ fork_management:
 
 chain:
   persist: true
-  hard_forks:
-    "1": 0
-    "2": 1
-    "3": 2
-    "4": 3
+  # hard_forks:
+  #   "1": 0
+  #   "2": 1
+  #   "3": 2
+  #   "4": 3
   # db_path: /home/aeternity/node/data/db
 
   protocol_beneficiaries_enabled: true
