@@ -3,6 +3,27 @@ peers:
     - aenode://pp_2vhFb3HtHd1S7ynbpbFnEdph1tnDXFSfu4NGtq46S2eM5HCdbC@18.195.109.60:3015
     - aenode://pp_27xmgQ4N1E3QwHyoutLtZsHW5DSW4zneQJ3CxT5JbUejxtFuAu@13.250.162.250:3015
     - aenode://pp_DMLqy7Zuhoxe2FzpydyQTgwCJ52wouzxtHWsPGo51XDcxc5c8@13.53.161.215:3015
+    - aenode://pp_26hz87GwQRrrCdWmEsBPwwGWwCregGVRnrGhUYabLpzqfHS4n1@18.196.41.135:3015
+    - aenode://pp_apWJNy8fkPjigPwMhoPg3w9QweGZ8ZzZnmwzaCp6PHZP6usAE@54.212.224.255:3015
+    - aenode://pp_26RZrGtqn8H3QwSqKVCuTBmXBkoUGCBKJ1A87kJ3DMEZYRjVnX@34.216.71.54:3015
+    - aenode://pp_LGgEKcNgxiKTUdBmvdJqnF5m2o9CZBX2ZZ8tLCHDd85ofmJzY@34.222.42.177:3015
+    - aenode://pp_Q8qVZMUv19Y5wjUaCkqejVRSwkPL6N313HDKoiRK5WtxzLmVJ@34.213.40.119:3015
+    - aenode://pp_QU9CvhAQH56a2kA15tCnWPRJ2srMJW8ZmfbbFTAy7eG4o16Bf@52.10.46.160:3015
+    - aenode://pp_DMLqy7Zuhoxe2FzpydyQTgwCJ52wouzxtHWsPGo51XDcxc5c8@13.53.161.215:3015
+    - aenode://pp_27xmgQ4N1E3QwHyoutLtZsHW5DSW4zneQJ3CxT5JbUejxtFuAu@13.250.162.250:3015
+    - aenode://pp_24eFZ2BjyTkpoT57LepB8fKmTLvKy7BGk3da2uCH5djxvy8Puh@3.1.195.24:3015
+    - aenode://pp_2vhFb3HtHd1S7ynbpbFnEdph1tnDXFSfu4NGtq46S2eM5HCdbC@18.195.109.60:3015
+    - aenode://pp_2dBmJXxeFkvTS7rt1ZW3e1KKuZFBT5Rq7DT5B3UJWttzj5opgJ@54.93.242.87:3015
+    - aenode://pp_2B3vrmDZx3P1LPZ9t1S8dA4ra4ugH7pE2qJbg77md8kvj91oEz@52.221.215.138:3015
+    - aenode://pp_TJ4DKQjRu8duofLXyoWcDYwzzcuSMgXNCNZSJDPjixFj6bi41@13.251.102.157:3015
+    - aenode://pp_SVHmAD2Eo5CXTDT47KVAVrkzx87K6XxaJKQsMko4vxPs4SDuw@18.196.174.110:3015
+    - aenode://pp_2254vzzreTrcfkzfWSfabNLWGhruqqKgnzSdrQiQ7QD36DtH9f@18.197.33.230:3015
+    - aenode://pp_8YqicXrgYbcy7nbgPbntKdivbohJ7CisF7YvT6MDeBjnJsKbq@18.139.117.241:3015
+    - aenode://pp_sN2X6kNL3UhP2Mb5BpjQ1eJg8baq8QoP6yriGnMa2jrNr47rD@54.93.78.26:3015
+    - aenode://pp_2w6qhdZCgzpE9tSACvanaCfv1fRACAHvfqPtWEE5d7t49YJC1g@13.48.13.86:3015
+    - aenode://pp_2poZKbndcDkQJHPr6Hk79B6yct1j4DMPKqNUdCEvyi7NtuujZ7@13.53.212.227:3015
+    - aenode://pp_2maZcNJyY4EV2bBjqEFeAisYWKudzn5BqJiWREEMSQ3xzRDPD4@13.53.129.208:3015
+    - aenode://pp_fSTLuCBX5gun2dmPViCacxaaTSseYN1GixRktqighxaRmmuck@13.48.127.100:3015
 
 sync:
     port: 3015
