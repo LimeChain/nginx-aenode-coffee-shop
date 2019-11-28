@@ -4,7 +4,7 @@
     "volumes": [{
         "name": "dbnode",
         "host": {
-            "sourcePath": "/data/node-db-rc5"
+            "sourcePath": "/data/node-db-test-rc510"
         }
     }],
 
